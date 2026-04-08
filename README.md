@@ -1,1 +1,24 @@
-# Fishbowl-5-Fish-5-Furious-TEST-ENV
+# INSTALLING THE TEST MODPACK
+
+In order to set up your test modpack and have it update automatically with github, you're going to need a few things.
+
+ 1. You'll need to install Git. This staging tool allows you to **push** and **push** directly from and to the server using **commits**.
+
+    You can get git at https://git-scm.com/.
+
+    You can pretty much use the default settings for everything.
+
+
+ 2. You need to make a folder in your instances folder and name it `Fishbowl-5-Fish-5-Furious-TEST-ENV`
+
+    By default, this is `Users/[user]/curseforge/minecraft/Instances`
+
+    Although if it isn't, you can find it by opening the folder of one of your other Curseforge instances.
+
+ 3. In Git Bash, a new application installed through git-scm, you need to use the following command:
+    ```bash
+    git clone https://github.com/yannick1124/Fishbowl-5-Fish-5-Furious-TEST-ENV.git /c/Users/[user]/curseforge/minecraft/Instances/Fishbowl-5-Fish-5-Furious-TEST-ENV
+    ```
+    Make sure to replace `[user]` with the right folder name, or if your instances are somewhere else entirely as outlined in step 2, use that instead.
+
+ 4. 
