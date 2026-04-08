@@ -47,4 +47,6 @@ From here you'll be able to stage, commit and push your changes.
 
 ---
 
-If you have any questions, you know where to contact me!
+There are other ways to do it that look a bit better, but those are either just as easy or harder to use, and require a little extra setup.
+
+If you have any questions, about that or other things, you know where to contact me!
