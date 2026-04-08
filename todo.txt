@@ -1,5 +1,46 @@
-# Config fixes
-- end generation check
+TODO add more bees
+DONE remove keybind conflicts
+DONE disable manhattan module
+DONE craftpresence
+DONE main menu
+DONE mega torch
+DONE quark death, matrix enchanting
+DONE jer
+DONE pet death messages + pet mods
+DONE easy magic
 
-Compat
-- honey
+TODO fix configs:
+TODO - end generation fix
+TODO compat:
+DONE - honey
+TODO - illusioner
+TODO - uranium
+TODO   - choose uranium default
+DONE   - `chemical` `mekanism:fissile_fuel` into `modern_industrialization:he_uranium_fuel_rod`
+TODO custom quests:
+TODO - mod explanations + small reward:
+TODO   - Oritech
+TODO   - Create
+TODO - keybind explanation:
+TODO   - voicechat
+TODO   - deeper darker
+TODO - illager invasion
+
+TODO kubejs:
+TODO - recipes:
+TODO   - oritech
+DONE   - bees:
+DONE     - fix Item.of() bee output amounts
+TODO   - create:
+TODO     - add plant oil and seed oil to frying oil tag
+TODO     - use frying oil tag instead of fluid for frying
+TODO - lootr:
+TODO   - mechanical companion loot chests
+
+TODO jei:
+TODO - remove `productivebees:honey`
+
+TODO world setup:
+TODO - spawn setup
+TODO - chunk claiming dimension blacklist
+TODO - max chunks setup, player and team
