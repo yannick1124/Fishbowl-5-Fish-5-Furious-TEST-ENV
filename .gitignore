@@ -11,6 +11,7 @@ logs/
 moddata/
 essential/
 screenshots/
+saves/
 
 .curseclient
 command_history.txt
@@ -18,5 +19,6 @@ emi.json
 minecraftinstance.json
 patchouli_data.json
 servers.dat_old
+servers.essential.dat
 usercache.json
 usernamecache.json
