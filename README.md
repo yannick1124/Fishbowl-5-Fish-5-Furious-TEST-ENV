@@ -1,6 +1,6 @@
 # ABOUT GIT
 
-### Installing Git and clone the modpack:
+## Installing Git and clone the modpack:
 
 In order to set up your test modpack and have it update automatically with github, you're going to need a few things.
 
@@ -26,14 +26,21 @@ In order to set up your test modpack and have it update automatically with githu
 
  4. Just open up Curseforge again!
 
----
+## Using Git Gui to push your changes:
 
-### Using Git Gui to push your changes:
 Open **Git Gui**, another git-scm application.
 
 Click __Open Existing Repository__ and navigate to the TEST ENV folder created in step 2 and filled in step 3.
 
-From here you'll be able to stage, commit and push your changes.
+From here you'll be able to fetch, stage, commit and push changes.
+
+### Before you start working on the project, it's important that you always fetch from remote `main`.
+
+This updates your profile with any changes you've made to the project.
+
+In the action bar at the top of the application, use [ Remote ] \\-> [ Fetch from ] > [ main ]
+
+### To stage, commit and push your changes
 
  1. To do so, always press [ Rescan ] first. 
 
@@ -43,7 +50,9 @@ From here you'll be able to stage, commit and push your changes.
 
  4. [ Commit ] your changes.
  
- 5. Finally [ Push ] your commit.
+ 5. Finally [ Push ] your commit to `main`. I have made a branch for myself, but I don't.
+
+BEFORE PUSHING ANY CHANGES, ALWAYS MAKE SURE IT WORKS BOTH IN YOUR OWN VERSION AND THE TEST VERSION OF THE PACK
 
 ---
 
