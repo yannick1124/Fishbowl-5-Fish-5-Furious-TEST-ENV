@@ -6,6 +6,7 @@ defaultconfigs/
 downloads/
 dynamic-data-pack-cache/
 dynamic-resource-pack-cache/
+fancymenu_data/
 local/
 logs/
 moddata/
@@ -22,3 +23,5 @@ servers.dat_old
 servers.essential.dat
 usercache.json
 usernamecache.json
+
+fancymenu_data/

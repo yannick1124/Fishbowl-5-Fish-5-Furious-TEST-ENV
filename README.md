@@ -11,7 +11,7 @@ In order to set up your test modpack and have it update automatically with githu
     You can pretty much use the default settings for everything.
 
 
- 2. You need to make a folder in your instances folder and name it `Fishbowl-5-Fish-5-Furious-TEST-ENV`
+ 2. You need to make a folder in your instances folder and name it `Fishbowl 5 Fish 5 Furious TEST-ENV`
 
     By default, this is `Users/[user]/curseforge/minecraft/Instances`
 
@@ -19,7 +19,7 @@ In order to set up your test modpack and have it update automatically with githu
 
  3. In **Git Bash**, a new application installed through git-scm, you need to use the following command:
     ```bash
-    git clone https://github.com/yannick1124/Fishbowl-5-Fish-5-Furious-TEST-ENV.git /c/Users/[user]/curseforge/minecraft/Instances/Fishbowl-5-Fish-5-Furious-TEST-ENV
+    git clone https://github.com/yannick1124/Fishbowl-5-Fish-5-Furious-TEST-ENV.git "/c/Users/[user]/curseforge/minecraft/Instances/Fishbowl 5 Fish 5 Furious TEST-ENV"
     ```
     Make sure to replace `[user]` with the right folder name, or if your instances are somewhere else entirely as outlined in step 2, use that instead.
 
