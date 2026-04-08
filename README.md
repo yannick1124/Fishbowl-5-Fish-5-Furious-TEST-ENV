@@ -1,4 +1,6 @@
-# INSTALLING THE TEST MODPACK
+# ABOUT GIT
+
+### Installing Git and clone the modpack:
 
 In order to set up your test modpack and have it update automatically with github, you're going to need a few things.
 
@@ -15,10 +17,26 @@ In order to set up your test modpack and have it update automatically with githu
 
     Although if it isn't, you can find it by opening the folder of one of your other Curseforge instances.
 
- 3. In Git Bash, a new application installed through git-scm, you need to use the following command:
+ 3. In **Git Bash**, a new application installed through git-scm, you need to use the following command:
     ```bash
     git clone https://github.com/yannick1124/Fishbowl-5-Fish-5-Furious-TEST-ENV.git /c/Users/[user]/curseforge/minecraft/Instances/Fishbowl-5-Fish-5-Furious-TEST-ENV
     ```
     Make sure to replace `[user]` with the right folder name, or if your instances are somewhere else entirely as outlined in step 2, use that instead.
 
- 4. 
+
+ 4. Just open up Curseforge again!
+
+---
+
+### Using Git Gui to push your changes:
+Open **Git Gui**, another git-scm application.
+
+Click __Open Existing Repository__ and navigate to the TEST ENV folder created in step 2 and filled in step 3.
+
+From here you'll be able to stage, commit and push your changes.
+
+To do so, always press [ Rescan ] first. Then, you can [ Stage Changed ], Write a commit message explaining the changes you've made (please do this, I really don't want to sift through material to see what's added), [ Commit ] your changes and finally [ Push ] your commit.
+
+---
+
+If you have any questions, you know where to contact me!
