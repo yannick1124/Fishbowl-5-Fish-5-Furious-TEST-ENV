@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "custom_recipes"
+	group: "79F2388840A4A5E6"
+	id: "4E22317D948FB10E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "create:honey_bucket"
+			}
+			id: "2ABD1B593E85E96A"
+			shape: "hexagon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "oritech:black_hole_block"
+			}
+			icon_scale: 0.8d
+			id: "39FB68A32DE9F965"
+			shape: "hexagon"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			disable_recipe_mod: false
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:tree_bark"
+			}
+			id: "785F3AEA3FE56C2E"
+			shape: "hexagon"
+			x: 0.5d
+			y: -0.9d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+			}
+			icon_scale: 0.8d
+			id: "1084ECC7734F174C"
+			shape: "hexagon"
+			x: 0.5d
+			y: 0.9d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "modern_industrialization:nuke"
+			}
+			id: "32E89368FC6D3846"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "modern_industrialization:uranium_fuel_rod_quad"
+			}
+			id: "70B0BCE26F0FD58D"
+			x: -0.5d
+			y: -0.9d
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	chapter.4E22317D948FB10E.title: "Custom Recipes"
+	chapter.506A46D341304905.title: " Oritech"
+	chapter_group.79F2388840A4A5E6.title: "Manual Changes"
+	chapter_group.7F7A962F262AAAEC.title: "Mods"
+	quest.1084ECC7734F174C.quest_desc: ["Omega Tier Stack Upgrades were stunningly easy to make before, especially considering its travel utility. We've opted to fix that oversight. No longer do you need a mere 8 Tier-4 Stack Upgrades. Now you'll need a whole 24 and a Black Hole, in a 5x5 Mechanical Crafter setup."]
+	quest.1084ECC7734F174C.quest_subtitle: "Back Hole"
+	quest.1084ECC7734F174C.title: "Stack Upgrade Omega Tier"
+	quest.2ABD1B593E85E96A.quest_desc: [
+		"Honey used to have two different versions. I've decided to replace all uses of &eproductivebees:honey&r with &6create:honey&r. If you find any mistakes, you know where to contact me!"
+		"{@pagebreak}"
+		""
+		"Another change to honey I've made is that you can no longer craft a honey bucket from a block. You have to mix and melt it instead, using Create."
+	]
+	quest.2ABD1B593E85E96A.quest_subtitle: "Sugary sweet"
+	quest.2ABD1B593E85E96A.title: "Honey"
+	quest.32E89368FC6D3846.quest_desc: ["Against Valk's endless pleading, I have decided to remove all nuclear bombs except the one non-functional one from the game. I do not want to deal with mass destruction on such a scale. To learn more, read the minority addendum to the GAC report for the AEC of October 30th, 1949."]
+	quest.32E89368FC6D3846.quest_subtitle: "\"By its very nature it cannot be confined to a military objective but becomes a weapon which in practical effect is almost one of genocide.\""
+	quest.32E89368FC6D3846.title: "Nuke"
+	quest.34AACB89CD239A19.title: "Getting the black hole"
+	quest.39FB68A32DE9F965.quest_desc: [
+		"Black holes don't have a recipe in base Oritech. That's because, as their inspiration would imply, they're dangerously destructive. Not only does touching the event horizon kill you, it also eats up every block in a large radius. However, the particles it releases are highly energetic. Using a black hole to generate energy, if done right, is an effective way to get a steady source of energy."
+		"{@pagebreak}"
+		"Black holes are not cheap to make however. Not only do you need antimatter and a heavy core, you'll also need a particle accellerator capable of reaching break neck speeds. Head to the &4Oritech&r tab to learn more."
+	]
+	quest.39FB68A32DE9F965.quest_subtitle: "\"Don't let me leave, Murph!\""
+	quest.39FB68A32DE9F965.title: "Black Hole"
+	quest.70B0BCE26F0FD58D.quest_desc: ["I've opted not to include Mekanism Generators, which makes fissile fuel by default completely obsolete. On top of that, there was only one way of getting nuclear waste: an essential resource for creating the black hole, and that was bees. So I have decided to let you turn depleted uranium rods from &7Modern Industrialization&r back into fresh rods using fissile fuel. A nice bonus is that you get delicious Nuclear Waste, that can be used to make &bPlutonium&r and &3Pollonium&r."]
+	quest.70B0BCE26F0FD58D.quest_subtitle: "Calorie-dense"
+	quest.70B0BCE26F0FD58D.title: "Use of Fissile Fuel"
+	quest.785F3AEA3FE56C2E.quest_desc: ["Tree bark is a useful item with several applications. However, it can be a tad tedious to get in bulk. Sure, if you've set up a logging business using a &6Create&r factory, you'll be off relatively well. But Quark actually adds these nice looking, plentiful hollow logs. Why not try milling or crushing them to get a little extra bark!"]
+	quest.785F3AEA3FE56C2E.quest_subtitle: "RRRUFF! RUFF RUFF!"
+	quest.785F3AEA3FE56C2E.title: "Tree Bark"
+}

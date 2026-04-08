@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "oritech"
+	group: "7F7A962F262AAAEC"
+	icon: {
+		id: "oritech:black_hole_block"
+	}
+	id: "506A46D341304905"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "34AACB89CD239A19"
+		rewards: [{
+			count: 8
+			id: "72C1344C50789D59"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}
+			type: "item"
+		}]
+		shape: "rsquare"
+		tasks: [{
+			id: "0F1B69EDC190646F"
+			item: { count: 1, id: "oritech:black_hole_block" }
+			type: "item"
+		}]
+		x: 1.0d
+		y: -0.5d
+	}]
+}

@@ -1,0 +1,111 @@
+#General settings for minecart speed.
+[General]
+	#The absolute top speed limit for minecarts with a player passenger.
+	#Vanilla default is 0.4 (8 blocks/second).
+	#Standard high-speed value is 1.0 (20 blocks/second).
+	#Max recommended is around 4.0 (80 blocks/second).
+	# Default: 2.0
+	# Range: 0.1 ~ 4.0
+	minecartMaxSpeed = 2.0
+
+#Settings related to minecart acceleration.
+[Acceleration]
+	#How quickly the minecart reaches top speed (Linear Acceleration).
+	#Added to speed every single tick when on powered rails or down-slopes.
+	#Example: 0.008 is a smooth, gradual increase. 0.02 is much faster.
+	# Default: 0.008
+	# Range: 0.0 ~ 1.0
+	minecartAccelRate = 0.008
+	#The speed threshold where 'High Speed Mode' activates (blocks/tick).
+	#Default is 1.0 (20 blocks/second).
+	#Once a powered rail pushes you to this speed, the mod's high-speed logic kicks in.
+	# Default: 1.0
+	# Range: 0.1 ~ 4.0
+	boostThreshold = 1.0
+
+#Settings for deceleration, braking, and curve look-ahead.
+[DecelerationAndBraking]
+	#Maximum speed allowed while turning corners or going up-slopes (blocks/tick).
+	#Default is 0.6 (12 blocks/second).
+	#If you go faster than this on a curve, you will likely derail or the cart will clamp.
+	#The mod will automatically brake to this speed when approaching a curve.
+	# Default: 0.6
+	# Range: 0.1 ~ 2.0
+	safeCurveSpeed = 0.6
+	#The target speed when the cart slows down naturally (blocks/tick).
+	#Default is 0.4 (8 blocks/second).
+	#Happens when you haven't touched a powered rail for a while (normal rail limit).
+	# Default: 0.4
+	# Range: 0.1 ~ 2.0
+	decelThreshold = 0.4
+	#Controls how early the cart begins braking before a curve.
+	#Formula: Look-ahead distance = current speed * multiplier.
+	#Higher values mean the cart starts braking from further away for a smoother stop.
+	#Default is 16.0.
+	# Default: 16.0
+	# Range: 0.0 ~ 100.0
+	minecartDecelSpeedMultiplier = 16.0
+	#Minimum distance (in blocks) to always look ahead for curves.
+	#Ensures you always have at least some warning, even at lower speeds.
+	#Default is 6.0.
+	# Default: 6.0
+	# Range: 0.0 ~ 100.0
+	minecartDecelMinLookahead = 6.0
+	#Maximum distance (in blocks) the cart will look ahead for curves.
+	#Caps the brake zone so you don't start braking miles before a turn at extreme speeds.
+	#Default is 30.0.
+	# Default: 30.0
+	# Range: 0.0 ~ 500.0
+	minecartDecelMaxLookahead = 30.0
+
+	#Settings for normal rail momentum and speed decay behavior.
+	#Controls how far minecarts can travel on unpowered rails before slowing down.
+	[DecelerationAndBraking.NormalRailAllowance]
+		#Base number of normal rails the cart can travel before speed decay begins.
+		#At or below boost threshold speed, you can travel this many normal rails without losing momentum.
+		#Think of this as the 'momentum budget' for unpowered track segments.
+		#Default is 12 blocks.
+		# Default: 12
+		# Range: 1 ~ 1000
+		normalRailBaseAllowance = 12
+		#Adjusts how much momentum you keep at higher speeds on normal rails.
+		#Formula: Allowed Rails = Base Allowance * (Current Speed / Boost Threshold) * Scaling Factor
+		#Higher values = longer distances on normal rails without slowing down at high speeds.
+		#Default is 1.0 (linear scaling). 1.5 = 50% more rails, 2.0 = double, etc.
+		#Example: At 2.0x speed with factor 1.5, you get 12 * 2.0 * 1.5 = 36 normal rails allowed.
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		normalRailScalingFactor = 1.0
+
+#Miscellaneous settings.
+[Miscellaneous]
+	#Show a speed meter (HUD) in the action bar while riding a fast minecart.
+	#Displays current speed, status (ACCELERATING, BRAKING, etc.), and target speed.
+	displayMinecartSpeed = true
+	#Color code for the BRAKING/ASCENDING status in the HUD.
+	#Default is 'c' (red). Use Minecraft color codes (0-9, a-f) without the § symbol.
+	hudColorCodeBraking = "c"
+	#Color code for the DECELERATING status in the HUD.
+	#Default is 'e' (yellow). Use Minecraft color codes (0-9, a-f) without the § symbol.
+	hudColorCodeDecelerating = "e"
+	#Color code for the ACCELERATING status in the HUD.
+	#Default is 'a' (green). Use Minecraft color codes (0-9, a-f) without the § symbol.
+	hudColorCodeAccelerating = "a"
+	#Color code for the cruising/speed display in the HUD.
+	#Default is '6' (gold). Use Minecraft color codes (0-9, a-f) without the § symbol.
+	hudColorCodeCruising = "6"
+	#Text label for the braking status in the HUD.
+	#Default is 'BRAKING'.
+	hudTextBraking = "BRAKING"
+	#Text label for the ascending (up-slope) status in the HUD.
+	#Default is 'ASCENDING'.
+	hudTextAscending = "ASCENDING"
+	#Text label for the decelerating status in the HUD.
+	#Default is 'DECELERATING'.
+	hudTextDecelerating = "DECELERATING"
+	#Text label for the accelerating status in the HUD.
+	#Default is 'ACCELERATING'.
+	hudTextAccelerating = "ACCELERATING"
+	#Text label for the cruising/speed display in the HUD.
+	#Default is 'Speed:'.
+	hudTextCruising = "Speed:"
