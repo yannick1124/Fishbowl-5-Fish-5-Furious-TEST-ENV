@@ -35,7 +35,15 @@ Click __Open Existing Repository__ and navigate to the TEST ENV folder created i
 
 From here you'll be able to stage, commit and push your changes.
 
-To do so, always press [ Rescan ] first. Then, you can [ Stage Changed ], Write a commit message explaining the changes you've made (please do this, I really don't want to sift through material to see what's added), [ Commit ] your changes and finally [ Push ] your commit.
+ 1. To do so, always press [ Rescan ] first. 
+
+ 2. Then, you can [ Stage Changed ]
+
+ 3. Write a commit message explaining the changes you've made. *(Please do this, I really don't want to sift through material to see what's added)*
+
+ 4. [ Commit ] your changes.
+ 
+ 5. Finally [ Push ] your commit.
 
 ---
 
