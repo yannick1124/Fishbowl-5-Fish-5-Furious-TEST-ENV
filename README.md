@@ -26,8 +26,11 @@ In order to set up your test modpack and have it update automatically with githu
     ```
     Make sure to replace `[user]` with the right folder name, or if your instances are somewhere else entirely as outlined in step 2, use that instead.
 
-
  4. Just open up Curseforge again!
+
+## Before you start working on the project each time, it's important to always pull from the remote origin main.
+
+In Git Bash, navigate to your git folder using `cd "/c/Users/[user]/curseforge/minecraft/Instances/Fishbowl 5 Fish 5 Furious TEST-ENV"`, then run `git show HEAD`
 
 ## Using Git Gui to push your changes:
 
@@ -47,7 +50,7 @@ In the action bar at the top of the application, use [ Remote ] \\-> [ Fetch fro
 
  1. To do so, always press [ Rescan ] first. 
 
- 2. Then, you can [ Stage Changed ]
+ 2. Then, you can select the files in Unstaged Changes you'd like to push and go to the action bar, [ Commit ] \-> [ Stage To Commit]
 
  3. Write a commit message explaining the changes you've made. *(Please do this, I really don't want to sift through material to see what's added)*
 
