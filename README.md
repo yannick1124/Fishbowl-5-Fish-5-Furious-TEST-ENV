@@ -10,12 +10,15 @@ In order to set up your test modpack and have it update automatically with githu
 
     You can pretty much use the default settings for everything.
 
+ 2. You'll have to open Curseforge and create a new profile with the following settings:
+     1. Name: `Fishbowl 5 Fish 5 Furious TEST-ENV`
+     2. Minecraft Version: `1.21.1`
+     3. Modloader: `NeoForge`
+     4. Modloader Version: `neoforge-21.1.222`
 
- 2. You need to make a folder in your instances folder and name it `Fishbowl 5 Fish 5 Furious TEST-ENV`
+ 3. You'll need to [ open folder ] in your newly created profile, copy over `.curseclient` and `minecraftinstance.json` to another location.
 
-    By default, this is `Users/[user]/curseforge/minecraft/Instances`
-
-    Although if it isn't, you can find it by opening the folder of one of your other Curseforge instances.
+    if you don't see `.curseclient`, enable [ view ] \\-> [ view hidden files ]
 
  3. In **Git Bash**, a new application installed through git-scm, you need to use the following command:
     ```bash
@@ -30,11 +33,11 @@ In order to set up your test modpack and have it update automatically with githu
 
 Open **Git Gui**, another git-scm application.
 
-Click __Open Existing Repository__ and navigate to the TEST ENV folder created in step 2 and filled in step 3.
+Click __Open Existing Repository__ and navigate to the TEST ENV folder emptied in step 4 and filled again in step 5 and 6.
 
 From here you'll be able to fetch, stage, commit and push changes.
 
-### Before you start working on the project, it's important that you always fetch from remote `main`.
+### Before you start working on the project, it's important that you always fetch from remote `main` (or `origin` if you don't see `main`).
 
 This updates your profile with any changes you've made to the project.
 
